@@ -1,0 +1,73 @@
+/* flexbax is a way to structured website */
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5f6fa;
+  padding: 20px;
+}
+
+.app__header {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.app__header > h1 {
+  color: #292D3F;
+  font-size: 2rem;
+}
+
+.app__left {
+  /* left side taking 90% of screen */
+  flex: 0.9;
+}
+.app__right {
+  display: flex;
+  flex-direction: column;
+}
+.app__livecases {
+  color: #0d7058;
+  font-size: 1.4rem;
+}
+.app__right .MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.app__graph {
+  flex-grow: 1;
+}
+.app__graphTitle {
+  color: #1770f0;
+  font-size: 1.4rem;
+  padding-bottom: 10px;
+}
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+.app__information > h3 {
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app__information > h3:last-of-type {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}
