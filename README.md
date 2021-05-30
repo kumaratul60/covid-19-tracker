@@ -15,6 +15,15 @@
 Deployed live on https://covid-19-tracker-5ak21.web.app/ . Check out!
 
 
+### Snapshots of project 👇
+
+![Alt Text](Screenshot%20(321).png?raw=true "Title")
+
+![Alt Text](Screenshot%20(322).png?raw=true "Title")
+
+![Alt Text](Screenshot%20(323).png?raw=true "Title")
+
+
 
 # Getting Started with Create React App
 
